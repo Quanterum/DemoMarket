@@ -11,7 +11,7 @@ namespace Application.Products.Commands.Create
         public int SubcategoryId { get; set; }
     }
 
-    public class CreateProductHandler : IRequestHandler<CreateProduct>
+    internal class CreateProductHandler : IRequestHandler<CreateProduct>
     {
         private readonly IApplicationDbContext _context;
 

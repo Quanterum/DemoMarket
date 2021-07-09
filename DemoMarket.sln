@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{A1E25BBF-B3AC-455D-854F-8B6E136C6D4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7548B657-03B4-48A0-8336-2C03C6A9577D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{A1E25BBF-B3AC-455D-854F-8B6E136C6D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1E25BBF-B3AC-455D-854F-8B6E136C6D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1E25BBF-B3AC-455D-854F-8B6E136C6D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AC61777-E7F3-4782-BD34-0E24BA6A1CF3} = {7548B657-03B4-48A0-8336-2C03C6A9577D}
+		{C313638E-A320-4476-8EDC-072AEBC741D6} = {7548B657-03B4-48A0-8336-2C03C6A9577D}
 	EndGlobalSection
 EndGlobal

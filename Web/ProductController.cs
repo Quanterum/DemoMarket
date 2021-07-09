@@ -6,10 +6,10 @@ using Application.Products.Commands.Update;
 using Application.Products.Dto;
 using Application.Products.Queries.GetProductsByFilter;
 using Microsoft.AspNetCore.Mvc;
-using Northwind.WebUI.Controllers;
 
 namespace Web
 {
+    [ApiVersion("1.0")]
     public class ProductController : BaseController
     {
         public async Task<List<ProductListDto>> GetProductsByFilter([FromQuery] GetProductsByFilter filter) 

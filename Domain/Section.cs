@@ -6,6 +6,6 @@ namespace Domain
 {
     public class Section : BaseEntity
     {
-        private List<ICategory> Categories { get; set; }
+        private List<ProductCategory> Categories { get; set; }
     }
 }
